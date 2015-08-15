@@ -3693,6 +3693,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid transparent;
   background: crimson;
   border-radius: 5px 5px 0 0;
+  font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
 }
 .nav-tabs > li > a:hover {
   border-color: #eee #eee #ddd;
