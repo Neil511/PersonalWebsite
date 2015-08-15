@@ -882,8 +882,11 @@ body {
 
 .nav-tabs{
     background: transparent;
+    font
 }
 
-#first {
-    color: green; !important
+.tab-picture {
+    max-height: 400px;
+    max-width: 100%;
+    margin-bottom: 15px;
 }
