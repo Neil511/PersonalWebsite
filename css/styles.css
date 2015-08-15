@@ -881,5 +881,9 @@ body {
 }
 
 .nav-tabs{
-    background: crimson;
+    background: transparent;
+}
+
+#first {
+    color: green; !important
 }

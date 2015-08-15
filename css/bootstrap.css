@@ -3691,9 +3691,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li > a {
   line-height: 1.42857143;
   border: 1px solid transparent;
+  background: crimson;
+  border-radius: 5px 5px 0 0;
 }
 .nav-tabs > li > a:hover {
   border-color: #eee #eee #ddd;
+  background: transparent;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
@@ -3703,6 +3706,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
+  /*border-radius: 5px 5px 0 0;*/
+  
 }
 .nav-tabs.nav-justified {
   width: 100%;
