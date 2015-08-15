@@ -877,5 +877,9 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color:crimson; /* Original yellow color: #fed136, changing tocrimson*/
+    webkit-tap-highlight-color:crimson; /* Original yellow color: #fed136, changing to crimson*/
+}
+
+.nav-tabs{
+    background: crimson;
 }
