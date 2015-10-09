@@ -118,8 +118,8 @@
                 </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">I am Neil Lohana, a first year student and an aspiring young programmer. I enjoy learning new concepts, programming and of course, learning to code. Currently, I am working to complete my Bachelor of Computer Science at the University of Waterloo while pursuing a Bachelor of Business Administration at Wilfrid Laurier University. </p>
-                    <a href="img/Resume.pdf" class="btn btn-xl">Download Resume</a>
+                    <p class="large text-muted">I am Neil Lohana, a curious student and an aspiring young programmer. I enjoy learning new concepts, programming and of course, learning to code. Currently, I am working to complete my Bachelor of Computer Science at the University of Waterloo while pursuing a Bachelor of Business Administration at Wilfrid Laurier University. </p>
+                    <a href="img/Resume.pdf" class="btn btn-xl">Tell Me More</a>
                 </div>
             </div>
         </div>
@@ -157,7 +157,7 @@
                             </li>
                             
                           <li class="list-group-item">
-                              C
+                              C, C++
                             </li>
                             
                           <li class="list-group-item">
@@ -206,61 +206,92 @@
                     <h3 class="section-subheading text-muted" style="margin-bottom: 25px;">"Challenges are what make life interesting and overcoming them is what makes life meaningful."</h3>
                 </div>
             </div>
-            <div class="col-lg-1"></div>
-            <div class="row col-lg-10 center-block">
-            
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active">
-                        <a href="#item1" aria-controls="item1" role="tab" data-toggle="tab" aria-expanded="true">START 2013</a>
-                    </li>
-                    
-                    <li role="presentation">
-                        <a href="#item2" aria-controls="item2" role="tab" data-toggle="tab" aria-expanded="false">Snake</a>
-                    </li>
-                    
-                    <li role="presentation">
-                        <a href="#item3" aria-controls="item3" role="tab" data-toggle="tab" aria-expanded="false">Blackjack</a>
-                    </li>
-                    
-                    <li role="presentation">
-                        <a href="#item4" aria-controls="item4" role="tab" data-toggle="tab" aria-expanded="false">Personal Website</a>
-                    </li>
-                </ul>
-                
-                <script>
-			         $(function () {
-			             $('#myTab a:first').tab('show')
-			         })
-			     </script>
-                    
-                <div display="inline" class="tab-content">
-                    
-                    <div role="tabpanel" class="tab-pane fade active in" id="item1">
-                        <img src="img/portfolio/start-website.jpg" class="img-responsive center-block tab-picture">
-                        START 2013 Website <br>
-                        Photoshop, Dreamweaver <br>
-                        START is a leadership conference held annually to inspire young individuals across Peel to partake in new opportunities. As the Technical Executive for the conference, I designed the START 2013 website using Photoshop and Dreamweaver. The website is accesible <a href="http://www.turnerfenton.com/Students/start/index.html" style="font-size: 14px; color: #000;">here</a>
+             <div class="row">
+                <div class=" col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/start-website-preview.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>START 2013 Website</h4>
+                        <p class="text-muted">Web Design</p>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="item2">
-                        <img src="img/portfolio/start-website.jpg" class="img-responsive center-block tab-picture">
-                        Snake Java Game <br>
-                        Java <br>
-                        Talk about how I made it, eclipse, link to downloadable jar</div>
-                    <div role="tabpanel" class="tab-pane fade" id="item3">
-                        <img src="img/portfolio/start-website.jpg" class="img-responsive center-block tab-picture">
-                        Blackjack Java Game<br>
-                        Java <br>
-                        Applied the PDLC methodology as well as used Java to design a Blackjack game with a custom user interface and a computer AI. The minimalstic interface was designed completely from stock images using Photoshop to convey a professional frontend design while the computer AI was programmed using a basic RNG seed.</div>
-                    <div role="tabpanel" class="tab-pane fade" id="item4">
-                        <img src="img/portfolio/start-website.jpg" class="img-responsive center-block tab-picture">
-                        Personal Website <br>
-                        HTML, CSS, Javascript <br>
-                        As an aspiring full stack web developer, I began learning HTML, CSS and Javascript, employing my knowledge by designing a personal website to showcase my projects and programming skills.</div>
-                    
                 </div>
-                
-        </div>
-        <div class="col-lg-1"></div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/sana-logo.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Mainandwall</h4>
+                        <p class="text-muted">Web Application Development</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/blackjack.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Casino Royale</h4>
+                        <p class="text-muted">Game Development</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/personal-website-preview.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Personal Website</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/personal-website-preview.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Personal Website</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/personal-website-preview.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Personal Website</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     
@@ -271,42 +302,43 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Strengths</h2>
                     <h3 class="section-subheading text-muted" style="margin-bottom: 25px;">"Do not pray for an easy life, but rather the strength to endure a difficult one."</h3>
-                    <!-- Column 1 -->
+                    
+                     <!-- Column 1 -->
+                    <div class ="col-md-6">
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Reliability
+                          </div>
+                        </div>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">Drive
+                            </div>
+                        </div>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 83%">Work Ethic
+                            </div>
+                        </div>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 95%">Passionate
+                            </div>
+                        </div>
+                    </div>
+                    
+                      <!-- Column 2 -->
                     <div class ="col-md-6">
                         <div class="progress">
                           <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 75%">Interpersonal Skills
                           </div>
                         </div>
                         <div class="progress">
-                          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Stress Tolerance
+                          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 83%">Stress Tolerance
                             </div>
                         </div>
                         <div class="progress">
-                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">Pragmatic
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">Pragmatisim
                             </div>
                         </div>
                         <div class="progress">
-                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Detail Attentive
-                            </div>
-                        </div>
-                    </div>
-                    
-                     <!-- Column 2 -->
-                    <div class ="col-md-6">
-                        <div class="progress">
-                          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">Strength
-                          </div>
-                        </div>
-                        <div class="progress">
-                          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">Driven
-                            </div>
-                        </div>
-                        <div class="progress">
-                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">Strength
-                            </div>
-                        </div>
-                        <div class="progress">
-                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Strength
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Detail Attentive <!-- change it to something that can be measured! --> 
                             </div>
                         </div>
                     </div>
@@ -393,7 +425,6 @@
     </footer>
 
     <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -435,11 +466,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>SANA Website Maintenance</h2>
-                            <p class="item-intro text-muted">Maintained the SANA Website.</p>
+                            <h2>Mainandwall</h2>
+                            <p class="item-intro text-muted">Developed the website using MEAN stack.</p>
                             <img href="http://www.sanalist.org/sana/newsite/" class="img-responsive img-centered" src="img/portfolio/sana-website.jpg" alt="">
                             <p>SANA is a non-profit organization with the objectives of uniting Sindhis all across North America. During the 2013 year, I was responsible for maintenance of their website as well as designing promotional graphics for various events and fundraisers. </p>
-                            <p>The website is currently accessible <a href="http://www.sanalist.org/sana/newsite/" style="font-size: 14px; color: #000;">here</a> </p>.
+                            <p>The website is currently still in development.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
