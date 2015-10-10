@@ -4902,7 +4902,10 @@ a.thumbnail.active {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: black;
+  border-bottom: 50%;
 }
 .list-group-item:first-child {
   border-top-left-radius: 4px;
@@ -4912,6 +4915,7 @@ a.thumbnail.active {
   margin-bottom: 0;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
+  border-bottom: none;
 }
 a.list-group-item {
   color: #555;
